@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("../images/FVP.cover.jpg");
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.imglogo {
+    height: 10%; 
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav-menu {
+    list-style: none;
+    color: white;
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover{
+    color: darkolivegreen;
+}
+
+.header-title-1 {
+    color: olivedrab;
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.header-title-2 {
+    color: rgba(252, 252, 252, 0.795);
+    font-family: 'Oswald', sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.header-cta-button {
+    color: white;
+    background-color: darkolivegreen;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+    color:  rgb(85, 107, 47);
+}
+
+.my-cart{
+    width: 50px;
+    height: 20px;
+}
+
+.my-cart:hover {
+    color:  rgb(85, 107, 47);
+    font-size: 30px;
+    padding-right: 8px;
+}
+
+.search:hover {
+    color:  rgb(85, 107, 47);
+    font-size: 30px;
+    
+}
+
+/****************productsection****************/
+.Product-background {
+    width: 1349px;
+    height: 600px;
+    background-size: cover;
+        background-color: pink;
+}
+.Product-Section {
+    background-color: teal;
+    height: 520px;
+    width: 270px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.Product-border {
+    border: 10px solid #f2ac32;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+.product-overlay {
+    padding-top: 10px;
+    position: absolute;
+    right: 20px ;
+    top: 20px ;
+    background-color: #fff;
+    width: 450px;
+    height: 250px;
+}
+
+.product-item {
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    margin-left: 400px;
+}
+.product-item a {
+    font-size: 16px;
+    text-align: center;
+    padding: 200px;
+    text-decoration: none;
+    color: #f2ac32;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+
+}
+/* .product-1 {
+    background-image: url(../images/Powerpack.jpg);
+    background-size: cover;
+    padding-left: 500px;
+    margin-left: 750px;
+} */
+.product-2 {
+    background-image: url();
+    background-size: cover;
+}
+.product-h1 {
+    font-family: 'Sacramento', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.product-h2 {
+    font-family:  'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}  
+
+/******************** Specialities Section *********************/
+/* 
+.specialities-section {
+    background: linear-gradient(), url();
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.specialities-h1 {
+    font-family: 'Sacramento', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.specialities-h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.specialities-middle{
+    text-align: center;
+    position: relative;
+}
+.specialities-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.specialities-image1,
+.specialities-image2,
+.specialities-image3 {
+    width: 100px;
+    height: 250px;
+    position: relative;
+}
+.specialities-col {
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.specialities-image1 {
+    background-image: url();
+    background-size: cover; 
+    cursor: pointer;
+}
+specialities-image1 :hover .specialities-overlay,
+specialities-image2 :hover .specialities-overlay,
+specialities-image3 :hover .specialities-overlay {
+    opacity: 1;
+}
+.specialities-image2 {
+    background-image: url();
+    background-size: cover;
+}
+.specialities-image3 {
+    background-image: url();
+    background-size: cover;
+}
+.specialities-h3 {
+    font-size: 26px;
+    font-family:  'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+.specialities-overlay {
+    border: 2px solid #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'oswald', sans srif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.specialities-top {
+    background-color: #f0f0f0;
+    position: relative;
+    display: none;
+}
+specialities-bottom {
+    background-color: powderblue;
+    position: relative;
+}
+.specialities-middle :before{
+    content: '';
+    position: absolute;
+    border-top: 100px solid #fff;
+    border-left: 100vw solid transparent;
+    top: -100px;
+    left: 0;
+}
+.specialities-middle after {
+    content: '';
+    position: absolute;
+    border-top: 100px solid #fff;
+    border-left: 100vw solid transparent;
+    bottom: -100px;
+    right: 0;
+} */
